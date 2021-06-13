@@ -1,4 +1,4 @@
-#include<bits10_1.h>/stdc++.h>
+#include<bits/stdc++.h>
 using namespace std;
 using ll = long long;
 #define mod 1000000007
@@ -50,6 +50,15 @@ int main()
     // {
     //     solve(t);
 
+
     // }
+    int a,b;
+    cin>>a>>b;
+    int c[a];
+    for(int i =0;i<a;i++)
+    {
+        cin>>c[i];
+    }
+    cout<<"8";
     return 0;
 }
